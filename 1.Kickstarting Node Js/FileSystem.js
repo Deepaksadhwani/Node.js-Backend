@@ -42,5 +42,12 @@ fs.readdir("utils", { withFileTypes: true }, (err, files) => {
   if (err) console.log(err);
   else console.log(files); // it returns array if files and folder, if withFileType true than it return object and  symbol type data from console.log response of file is if 2 == folder 1 == file.
 });
+
+
+// deleting folder 
+fs.rm("utils",{recursive: true} ,(err) => {
+  if (err) console.log(err) // if there is empty folder then it will not give err without recursive it only deletes empty folder with recursive value it is apple to delete nested file and folder do not use fs.rmdir it is not outdated used fs.rm to deleted folder.
+  else console.log("folder is Deleted")
+})
 // copy files // move files
 // and many more  we can do with file system "fs"
