@@ -26,3 +26,9 @@ app.listen(4000);
 /*-----------------------------------------middleware------------------------------------------*/
 //whenever we sent a request to browser, it goes to it's route and we want to before it goes to it's route we want to check or add something before it reaches on route the tools which allows to do this is called middleware.
 
+
+
+
+/*------------ Cors (Cross Origin Resource Sharing-------------------------*/
+// there is security feature with that browser  do not allow us access data of web domain, browser prevent it , we want browser to allow it for access data so with the help of server we can  enable CORS.
+
