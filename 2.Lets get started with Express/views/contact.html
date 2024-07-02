@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <form action="/contact" method="POST">
+      <div class="form-container">
+        <h1>Contact Us</h1>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" />
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" />
+
+        <button type="submit"><a href="/success">Add Details</a></button>
+      </div>
+    </form>
+  </body>
+</html>

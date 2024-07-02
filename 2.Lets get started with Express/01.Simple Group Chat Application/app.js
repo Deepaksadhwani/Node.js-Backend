@@ -46,7 +46,7 @@ app.get("/dashboard", (req, res) => {
     <div>
       <h2>Messages:</h2>
       <ul>
-        ${messages.map((msg) => `<li>${username}: ${msg}</li>`).join("")}
+        ${messages.map((msg) => `<li>${username}: ${msg}</li>`)}
       </ul>
     </div>
   `);
