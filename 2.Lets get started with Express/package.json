@@ -8,7 +8,8 @@
     "express": "^4.19.2",
     "express-session": "^1.18.0",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "zod": "^3.23.8"
   },
   "name": "2.lets-get-started-with-express",
   "version": "1.0.0",
